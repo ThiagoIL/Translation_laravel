@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
+class PostPtbr extends Model
 {
     use HasFactory;
 
-    protected $table = 'posts';
+    protected $table = 'posts_ptbr';
 
     protected $guarded = ['id'];
 }

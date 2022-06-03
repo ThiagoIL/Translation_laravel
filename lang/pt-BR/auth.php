@@ -13,10 +13,10 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-    'title' => 'Posters',
-    'content' => 'Esse é um post em POrtugues do Brasil'
+    'failed' => 'Essas credenciais não foram encontradas em nossos registros.',
+    'password' => 'A senha informada está incorreta.',
+    'throttle' => 'Muitas tentativas de login. Tente novamente em :seconds segundos.',
+    'title' => 'Posts',
+    'content' => 'This is a post in English USA'
 
 ];

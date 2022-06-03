@@ -14,8 +14,11 @@ use App\Http\Controllers;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('lists', 'App\Http\Controllers\PostsController@list')->name('list');
+
+Route::group (['prefix' => '{locale}'], function () {
+   Route::get('/', 'App\Http\Controllers\PostsController@list')->name('list');
+   /*  Route::get('/', function () {
+        return view('list_post');
+    }); */
+});
